@@ -1,0 +1,51 @@
+body {
+    background: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-clash {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.type-table {
+    margin: 30px;
+}
+
+
+.title {
+    font-family: 'Eczar', serif;
+    font-size: 45px;
+    color: red;
+    background-color: rgba(0,0,0, 0.7);
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.versus {
+    font-family: 'Madimi', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0, 0.7);
+    color: wheat;
+    margin: 20px 5px;
+}
+
+td > img {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+td > img:hover {
+    opacity: 0.7;
+    width: 205px;
+    height: 205px;
+}
+
